@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+img{
+	width: 400px;
+	height: 350px;
+}
+
+body{
+	background-color:#7ac1ff;
+}
+
+input[type=submit], input[type=reset]{
+	background-color: blue;
+	color: white;
+	padding: 8px;
+	border: ridge;
+}
+
+#reservar{
+	width: 30%;
+	border-collapse: collapse;
+}
+
+#reservar th,td{
+	border: 4px solid red;
+}
+
+#reservar tr:hover
+{
+	background-color: green;
+}
